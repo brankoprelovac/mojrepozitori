@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="http://localhost/Demo1/api_cash_add_" method="post">
+            Ime: <input type="text" name="name"><br>
+            Opis: <input type="text" name="description"><br>
+            Cena: <input type="number" min="0.01" step="any" name="value"><br>
+            
+            Kategorije: <br>
+            
+            <input type="checkbox" name="categories[]" value="1">Prihodi<br>
+            <input type="checkbox" name="categories[]" value="2">Rashodi<br>
+            <input type="checkbox" name="categories[]" value="4">Racuni<br>
+            <input type="checkbox" name="categories[]" value="5">Plata<br>
+            
+            <button type="submit">Dodaj</button>
+        </form>
+    </body>
+</html>

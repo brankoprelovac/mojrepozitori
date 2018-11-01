@@ -1,0 +1,244 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+ul, ol {
+    margin-left: 30px;
+}
+
+body {
+    text-align: center;
+}
+
+#wrapper {
+    display: inline-block;
+    text-align: left;
+    max-width: 1500px;
+    min-width: 700px;
+    margin: 0px auto;
+}
+
+#nav {
+    margin: 15px 0px;
+}
+
+#nav > ul {
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+#nav > ul > li {
+    display: inline-block;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#nav > ul > li > a {
+    display: inline-block;
+    border-bottom: 1px solid darkcyan;
+    color: darkcyan;
+    text-decoration: none;
+    padding: 5px 25px;
+    margin-right: 10px;
+}
+
+#nav > ul > li > a.active {
+    border: 2px solid darkcyan;
+}
+
+#nav > ul > li > a:hover {
+    border-bottom-color: black;
+    color: black;
+}
+
+article.blok {
+    padding: 10px;
+    border: 1px solid darkcyan;
+}
+
+article.blok p {
+    margin-bottom: 10px;
+}
+
+article.blok > header {
+    border-bottom: 1px solid darkcyan;
+    margin-bottom: 10px;
+}
+
+article.blok > header > h1 {
+    font-size: 18pt;
+    color: darkcyan;
+    padding-bottom: 10px;
+}
+
+#footer {
+    text-align: center;
+    padding: 15px 0px;
+    margin-top: 15px;
+    border-top: 1px solid darkcyan;
+}
+
+.input-blok {
+    padding: 5px;
+    margin: 5px;
+}
+
+.input-blok > label {
+    vertical-align: top;
+    display: inline-block;
+    min-width: 125px;
+    
+}
+
+/*
+.input-blok > textarea,
+.input-blok > input[type="url"],
+.input-blok > input[type="tel"],
+.input-blok > input[type="text"], 
+.input-blok > input[type="email"],
+.input-blok > input[type="date"],
+.input-blok > input[type="number"], 
+.input-blok > input[type="month"], 
+.input-blok > input[type="week"],
+.input-blok > input[type="password"], 
+.input-blok > input[type="datetime"], 
+.input-blok > input[type="datetime-local"] {
+    min-width: 360px;
+    padding: 5px 5px;
+}
+*/
+
+ /* ovo ispod ili ovo iznad */
+ 
+.input-blok > .input-field {
+    min-width: 360px;
+    padding: 5px 5px;
+}
+
+.button {
+    vertical-align: bottom;
+    background-color: white;
+    border: 1px solid darkcyan;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
+.table {
+    border-collapse: colapse;
+    width: 100%
+}
+
+.table thead th {
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 2px 6px;
+}
+
+.table tbody th,
+.table tbody td {
+    border-bottom: 1px solid lightblue;
+    padding: 4px 6px;
+    
+}
+
+.table a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1px 5px;
+    color: #811;
+}
+
+.table a:hover {
+    color: black;
+    background-color: lightblue;
+}
+
+th.align-center {
+    text-align: center;
+}
+/*
+
+
+
+
+*/
+
+.table2 {
+    border: 1px solid lightblue;
+    width: 90%
+}
+
+.table2 thead th {
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 2px 6px;
+}
+
+.table2 tbody th,
+.table2 tbody td {
+    border-bottom: 1px solid lightblue;
+    padding: 4px 6px;
+    
+}
+
+.table2 a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1px 5px;
+    color: #811;
+}
+
+.table2 a:hover {
+    color: black;
+    background-color: lightblue;
+}
+
+.table2 caption {
+    border: 1px solid lightblue;
+    font-size: 16pt;
+}
+
+/*
+
+
+
+*/
+
+.float-left {
+    width: 50%;
+    float: left;
+}
+.float-right {
+    width: 50%;
+    float: right;
+}
+.container {
+    overflow: hidden;
+}
+
+#balans-rashodi {
+    text-align: center;
+}
+#balans-prihodi {
+    text-align: center;
+}
+
+#xxx {
+    font-weight: bold;
+}
+#grafik2 {
+    max-height: 50%;
+}
